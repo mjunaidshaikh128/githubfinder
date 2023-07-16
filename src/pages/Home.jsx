@@ -1,9 +1,10 @@
 import UserResults from "../components/users/UserResults"
+import UserSearch from "../components/users/UserSearch"
 
 const Home = () => {
     return (
         <>
-            <h1 className="text-3xl">Home</h1>
+            <UserSearch />
             <UserResults />
         </>
     )
